@@ -1,0 +1,1216 @@
+
+* {
+	box-sizing: border-box;
+}
+
+html, body
+{
+}
+
+body
+{
+	font-family: "MinionPro",serif;
+	background: transparent none top left no-repeat;
+	margin: 0; padding: 0;
+	border: none;
+}
+
+#cv-container
+{
+	margin: 0px auto;
+	/*font-family: "MinionPro",serif;*/
+	font-family: "AvenirNext-Regular", sans-serif;
+	color: #575758;
+	font-size: 1em;
+	max-width: 900px;
+}
+
+#cv-content
+{
+	width: 100%;
+}
+
+
+#cv-header-container {
+	background: #191434 none no-repeat scroll right top;
+	/*height: 152px;*/
+	border-top: 1px solid #191434;
+	border-bottom: 1px solid #191434;
+	margin: 0;
+	position: relative;
+}
+
+
+#cv-header-container .cv-header {
+	padding: 0; 
+	margin: 0 auto;
+	position: relative;
+}
+
+#foto-container
+{
+	display: inline-block;
+	/*height: auto;*/
+	/*margin-left: 15px;*/
+	vertical-align: top;
+	/*width: 135px;*/
+}
+#foto-container img
+{
+	/*height: 150px;*/
+	width: auto;
+}
+
+#cv-header-text
+{
+	display: inline-block;
+	margin: 0;
+	/*padding: 5px 10px 10px;*/
+	vertical-align: top;
+	width: auto;	
+}
+h1.cv-name
+{
+	color: #fff;
+	font-family: "DIN",sans-serif;
+	font-size: 2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+h1.cv-name.length-over
+{
+	font-size: 1.8em;
+}
+h2.sub-title
+{
+	color: #f6b222;
+	font-family: "DIN",sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: lighter;
+	line-height: 1.2;
+	/*margin-top: 10px;*/
+	text-transform: uppercase;
+}
+
+/* da visualizzare solo in stampa */
+#cv-header-img
+{
+	position: absolute;
+	/*top: 5px;
+	right: 5px;*/
+}
+#cv-header-img img
+{
+	/*height: 40px;
+	width: 176px;*/
+}
+#cv-header-container .qrcode-container
+{
+	position: absolute;
+	background-color: #fff;
+}
+#cv-header-container .qrcode-container img
+{
+	/*max-width: 80px;*/
+}
+
+#cv-content-middle-wrapper
+{
+	display: table;
+	width: 100%;
+}
+
+#cv-content-middle
+{
+	display: table-row;
+	font-size: 1em;
+}
+
+#column-left
+{
+	background-color: #ececed;
+	display: table-cell;
+	padding: 1% 0;
+	vertical-align: top;
+	width: 30%;
+	position: relative;
+	font-size: 1em;
+}
+
+#column-right
+{
+	background-color: #fff;
+	/*display: inline-block;*/
+	display: table-cell;
+	margin-right: 0;
+	padding: 1% 2%;
+	vertical-align: top;
+	width: 70%;
+	font-size: 1em;
+}
+.app #cv-content-middle-wrapper,
+.app #cv-content-middle,
+.app #column-left,
+.app #column-right
+{
+	/*display: table-row;*/
+	display: block;
+	width: 100%;
+}
+.section-container
+{
+	width: 100%;
+	/*margin: 0;*/
+	padding: 0;
+	margin-bottom: 2em;
+}
+.app #column-right .section-container
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#column-left .section-title 
+{
+	color: #16284c;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 0.3em 0 0;
+	/*margin: 2px 0 5px 0;*/
+	text-transform: uppercase;
+}
+#column-left .section-subtitle 
+{
+	color: #15284b;
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+
+#column-left .row 
+{
+	color: #575756;
+	font-family: "AvenirNext-Medium",sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+#column-left .row .label
+{
+	color: #575756;
+	font-family: "AvenirNext-Medium", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+#column-left .row b
+{
+	color: #16284c;
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-weight: normal;
+	margin-right: 0.5em;
+	/*text-transform: lowercase;*/
+}
+#column-left .row b span {
+	display: inline-block;
+}
+
+#column-left .row b span::first-letter {
+	text-transform: uppercase;
+}
+
+#column-left .section-content
+{
+	color: #000;
+	font-family: "AvenirNext-Medium",sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.2;
+	margin: 1% 0 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: none;
+}
+
+#column-left .mini-icon
+{
+	/*margin-bottom: 2px;*/
+}
+
+#column-left .mini-icon img 
+{
+	height: 20px;
+	width: 20px;
+	line-height: 1;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}
+#column-left .mini-icon.two-rows
+{
+	height: auto;
+	line-height: auto;
+}
+#column-left .mini-icon.two-rows img
+{
+	vertical-align: middle;
+}
+#column-left .mini-icon .second-tel
+{
+	/*padding-left: 27px;*/
+}
+
+
+
+
+#column-right .section-title
+{
+	/*height: 48px;*/
+	padding: 0;
+	margin: 0 0 1% 0;
+	width: 100%;
+	background: url("../../../images/border-title.png") repeat-x scroll left 50% transparent;
+	max-height: 48px;
+	overflow-y: hidden;
+}
+#column-right .section-title > img 
+{
+	float: left;
+	width: 48px;
+}
+#column-right .section-title span
+{
+	background: none no-repeat left top;
+	padding-left: 30%;
+	/*padding-top: 2px;*/
+	text-transform: uppercase;
+	text-align: left;
+	display: block;
+	/*height: 48px;*/
+	color: #15284b;
+	font-family: "DIN",sans-serif;
+	/*font-size: 1em;*/
+	font-style: normal;
+	font-weight: normal;
+}
+
+#column-right .section-content-table
+{
+	width: 100%;
+}
+
+#column-right .section-content-table tbody
+{
+	border-top: 0;
+}
+
+#column-right .section-content-table th
+{
+	position: relative;
+	width: 30%;
+	max-width: 170px;
+	/*padding: 10px 1% 4px 0;*/
+	color: #333;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff;
+	border: none;
+	word-wrap: break-word;
+}
+#column-right .section-content-table th div
+{
+/*	word-wrap: break-word;*/
+/*	word-break: break-all;*/
+	word-break: break-word;
+	width: 99%;
+}
+
+#column-right .section-content-table td
+{
+	width: 70%;
+	max-width:350px;
+	word-wrap: break-word;
+	border: none;
+	/*padding: 10px 0px 4px 0px;*/
+	vertical-align: top;
+	text-align: left;
+	text-align-last: left;
+
+}
+#column-right .section-content-table td,
+#column-right .row .paragraph,
+#column-right .row p
+{
+	font-family: "AvenirNext-Regular", sans-serif;
+	color: #575756;
+	font-size: 1em;
+	font-weight: normal;
+}
+#column-right .section-content-table td b,
+#column-right .section-content-table td strong
+{
+	font-family: "AvenirNext-DemiBold", sans-serif;
+	font-weight: normal;
+}
+#column-right .section-content-table td p,
+#column-right .section-content-table td .paragraph
+{
+	margin: 0.25em 0;
+}
+
+#column-right .section-content-table td a,
+#column-right .section-content-table td a:link,
+#column-right .section-content-table td a:focus,
+#column-right .section-content-table td a:hover,
+#column-right .section-content-table td a:visited
+{
+	color: #575756;
+	display: block;
+	/* Required for text-overflow to do anything */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#column-right .section-content-table td a:hover
+{
+	color: #000;
+}
+.app #column-right .section-content-table td a
+{
+	width: 100px;
+} 
+
+
+
+/* CSS SPECIFICI PER SEZIONE */
+
+
+/* DATI anagrafici e CONTATTI  */
+#column-left #personal-info .row b
+{
+	text-transform: unset;
+}
+#column-left #personal-info .row b span::first-letter {
+	text-transform: uppercase;
+}
+#column-left #personal-info .row b span.comune {
+	text-transform: capitalize;
+}
+#column-left #personal-info .row b span.targa {
+	text-transform: uppercase;
+}
+#column-left #personal-info #idstud-lastagg
+{
+	margin-top: 0.2em;
+	font-size: 0.9em;
+}
+#column-left #personal-info #idstud-lastagg .label-data-separator
+{
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+}
+
+#column-left #contact-info .row b,
+#column-left #contact-info .row.mini-icon,
+#column-left #contact-info .row.mini-icon a
+{
+	font-family: "AvenirNext-Regular",sans-serif;
+	text-transform: none;
+	color: #000;
+	font-weight: normal;
+}
+#column-left #contact-info .row.mini-icon.email b,
+#column-left #contact-info .row.mini-icon.cellphone b,
+#column-left #contact-info .row.mini-icon.phone b
+{
+	font-family: "AvenirNext-DemiBold",sans-serif;
+}
+
+
+/* SOCIAL NET */
+#column-left #social-list .mini-icon
+{
+	display: inline-block;
+}
+#column-left #social-list .mini-icon a,
+#column-left #social-list .mini-icon a:visited,
+#column-left #social-list .mini-icon a:active,
+#column-left #social-list .mini-icon a:link
+{
+	color: #000;
+	font-size: 2em;
+	margin-right: 0.3em;
+	display: inline;
+	text-decoration: none;
+}
+
+
+/* OBIETTIVI PROFESSIONALI */
+#column-right #cv-obiettivi-prof h2 
+{
+	color: #f6b222;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-size: 1.5em;
+	font-variant: normal;
+	font-weight: 600;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: none;
+	margin:0;
+	padding:0;
+}
+#column-right #cv-obiettivi-prof .section-content-table td
+{
+	font-style: italic;
+}
+
+
+/* ESPERIENZE LAVORO / STAGE */
+#column-right #cv-works .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaEsperienze.png") no-repeat left top;*/
+}
+#column-right .lav-funz,
+#column-right .cv-stage,
+#column-right .lav-altreinfo
+{
+	color: #15284b;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.1;
+}
+#column-right .lav-azienda
+{
+	color: #f6b222;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+#column-right th .lav-sede,
+#column-right th .lav-settore,
+#column-right th .lav-periodo
+{
+	color: #706f6f;
+	font-family: DIN,sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.1;
+}
+#column-right th .lav-sede,
+#column-right th .lav-settore
+{
+	text-transform: uppercase;
+}
+#column-right th .lav-periodo
+{
+	text-transform: none;
+}
+#column-right th .lav-settore
+{
+	font-style: italic;
+	text-transform: none;
+	font-size: 1.1em;
+	margin-bottom: 2px;
+}
+#column-right th .lav-settore::first-letter {
+	text-transform: uppercase;
+}
+
+
+/* STUDI E FORMAZIONE */
+#column-right #cv-titles .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaStudi.png") no-repeat left top;*/
+}
+
+#column-right .row-title-name
+{
+	color: #15284b;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-size: 1.3em;
+	font-weight: 600;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+#column-right .row-title-anno
+{
+	color: #706f6f;
+	font-family: DIN,sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+#column-right .cv-title-cert
+{
+	color: #f6b222;
+	font-family: DIN,sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+#column-right .cv-title-univ-logo
+{
+	margin-top: 5px;
+}
+#column-right .cv-title-univ-logo p,
+#column-right .cv-title-univ-logo .paragraph
+{
+	color: #706f6f;
+	font-family: DIN,sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+
+#column-right .cv-title-univ-logo img
+{
+	max-width: 60px;
+}
+#column-right .cv-title-univ-logo .title-paese,
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+	text-transform: uppercase;
+}
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+#column-right .cv-title-desc-corso.it,
+#column-right .cv-title-indirizzo
+/*,#column-right .titolo-tesi*/
+{
+	text-transform: lowercase;
+}
+#column-right .cv-title-desc-corso b,
+#column-right .cv-title-indirizzo b,
+#column-right .titolo-tesi b
+{
+	display: block;
+}
+#column-right .cv-title-desc-corso b:first-letter,
+#column-right .cv-title-indirizzo b:first-letter,
+#column-right .titolo-tesi b:first-letter
+{
+	text-transform: uppercase !important;
+}
+
+/* STUDI PREUNIVERSITARI */
+#column-right #cv-preuniv .section-title span
+{
+	/*	background: url("/img/lau/cv5.0/48x48/post.png") no-repeat left top;*/
+}
+
+
+
+
+/* CONOSCENZE LINGUISTICHE SEZIONI SX E DX */
+
+/* CONOSCENZA LINGUE SEZIONE COMPATTA SINISTRA */
+#column-left #cv-lingue-compact .row .label
+{
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+#column-left .ep-languages-compact
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+#column-left .ep-languages-compact tr.bottom-border
+{
+	/*border-bottom: 1px solid #ccc;
+	padding: 2px 0;*/
+}
+#column-left .ep-languages-compact th[scope=col]
+{
+	/*width: 32px;
+	height: 32px;
+	padding: 2px;*/
+}
+#column-left .ep-languages-compact th img
+{
+	/*width: 28px;*/
+}
+#column-left #cv-lingue-compact .europass-logo
+{
+	text-align: left;
+}
+#column-left #cv-ep-digit-compact .europass-logo a
+{
+	color: #15284b;
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	margin-top: 0;
+	text-transform: none;
+}
+#column-left #cv-lingue-compact .europass-logo img,
+#column-left #cv-ep-digit-compact .europass-logo img
+{
+	width: auto;
+	height: 1.1em;
+	margin-left: 1em;
+}
+#column-left .ep-languages-compact th[scope=row]
+{
+	/*padding: 4px 0;*/
+}
+#column-left .ep-languages-compact th,
+#column-left .ep-languages-compact td
+{
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #575756;
+	text-align: left;
+	text-transform: uppercase;
+}
+#column-left .ep-languages-compact .language-name 
+{
+}
+#column-left .ep-languages-compact .language-gen
+{
+	color: #16284c;
+}
+#column-left .ep-languages-compact td
+{
+	text-align: center;
+}
+#column-left .ep-languages-compact td.language-liv
+{
+	color: #16284c;
+}
+
+
+/*** CONOSCENZA LINGUE DESTRA ***/
+#column-right #cv-lingue .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/lingue.png") no-repeat left top;*/
+}
+
+#column-right #mother-tongue
+{
+	text-transform: uppercase;
+}
+#column-right .ep-languages
+{
+	width: 100%;
+}
+#column-right tr.bottom-border th,
+#column-right tr.bottom-border td
+{
+	/*border-bottom: 1px solid #ccc;*/
+}
+#column-right .europass-logo
+{
+	text-align: left;
+}
+#column-right .ep-lang-title
+{
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	color: #000;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	background-color: #ECECED;
+	width: auto;
+	/*padding: 5px;*/
+	/*border: 1px solid #fff;*/
+	border-collapse: collapse;	
+	text-align: center;
+	vertical-align: middle;
+}
+
+#column-right .ep-language-name
+{
+	color: #575756;
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-size: 0.9em;
+	font-weight: 600;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+#column-right .ep-language-liv.generale,
+#column-right .ep-language-liv.ascolto,
+#column-right .ep-language-liv.lettura,
+#column-right .ep-language-liv.interaz,
+#column-right .ep-language-liv.orale,
+#column-right .ep-language-liv.scritto
+{
+	font-family: "AvenirNext-DemiBold",sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	/*padding: 5px;*/
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+#column-right .ep-language-liv.generale
+{
+	text-align: left;
+}
+
+
+
+/*** SOFT SKILLS ***/
+#column-left #soft-skills .row .label
+{
+	color: #000;
+	font-family: "AvenirNext-Regular", sans-serif;
+}
+#column-left #soft-skills .row b
+{
+	color: #FFB000;
+}
+
+
+
+/*** COMPETENZE INFORMATICHE ***/
+#column-left #cv-informatiche-compact
+{
+	margin-top: 1.5em;
+}
+#column-left #cv-informatiche-compact .row .label
+{
+	color: #000;
+	font-family: "AvenirNext-Regular", sans-serif;
+}
+#column-left #cv-informatiche-compact .row b,
+#column-left #cv-ep-digit-compact  .row b
+{
+	color: #ffb000;
+}
+
+
+/*** PROSPETTIVE FUTURE E LAVORO CERCATO ***/
+#column-left #cv-prospettive-lav-cercato .row
+{
+	margin-bottom: 0.5em;
+}
+#column-left #cv-prospettive-lav-cercato .row .label
+{
+	color: #000;
+	font-family: "AvenirNext-Regular", sans-serif;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+#column-left #cv-prospettive-lav-cercato .row b
+{
+	display: inline-block;
+	margin-right: 0;
+}
+#column-left #cv-prospettive-lav-cercato .row b::first-letter
+{
+	text-transform: uppercase;
+}
+#column-left #cv-prospettive-lav-cercato .intprev::first-letter
+{
+	text-transform: uppercase;
+}
+
+
+/* STUDI POST UNIVERSITARI */
+#column-right #post-titles .section-title span
+{
+	/*	background: url("/img/lau/cv5.0/48x48/post.png") no-repeat left top;*/
+}
+
+/* TITOLI MERITO */
+#column-right #cv-merito .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaTitoli.png") no-repeat left top;*/
+}
+
+/* STUDI ALL'ESTERO */
+#column-right #cv-estero .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/estero.png") no-repeat left top;*/
+}
+
+/* EVENTI */
+#column-right #cv-eventi .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/eventi.png") no-repeat left top;*/
+}
+
+/* OPERE */
+#column-right #cv-opere .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/opere.png") no-repeat left top;*/
+}
+
+/* CONVEGNI */
+#column-right #cv-convegni .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/convegni.png") no-repeat left top;*/
+}
+
+/* PUBBLICAZIONI */
+#column-right #cv-pubblicazioni .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/pubblicazioni.png") no-repeat left top;*/
+}
+
+/* DIDATTICA */
+#column-right #cv-didattica .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/didattica.png") no-repeat left top;*/
+}
+
+/* ALLEGATI */
+#column-right #cv-allegati .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/allegati.png") no-repeat left top;*/
+}
+
+/* INFORMAZIONI AGGIUNTIVE - ALTRIDATI */
+#column-right #cv-altridati .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/altridati.png") no-repeat left top;*/
+}
+
+/* CATEGORIE PROTETTE */
+#column-right #categorie-protette .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/catProt.png") no-repeat left top;*/
+}
+
+.sibling_comma:last-child::after	{
+	content: " ";
+}
+
+.sibling_comma::after {
+    content: ", ";
+}
+
+.sibling_pipe:last-child::after	{
+	content: " ";
+}
+
+.sibling_pipe::after {
+    content: " | ";
+}
+/*
+.sottocat-comp-list[id$=".0"] strong {
+    display: none;
+}*/
+
+
+/* FOOTER */
+
+.cv-footer-container
+{
+	/*border-top: 3px solid #191434;*/
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	
+}
+
+.cv-footer-left
+{
+	display: inline-block;
+	width: 30%;
+	margin: 0;
+	padding: 1%;
+	text-align: right;
+	/*border: 1px solid #000;*/
+
+	display:none;
+}
+.cv-footer-container .qrcode-container img
+{
+	/*max-width: 80px;*/
+}
+
+.cv-footer-right
+{
+	padding: 2%;
+	margin: 0;
+	display: inline-block;
+	width: 69%;
+	vertical-align: top;
+
+	display:none;
+}
+.cv-footer-right .paragraph
+{
+	color: #000;
+	font-family: "AvenirNext-Regular",sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	line-height: 1.2;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+
+
+
+/* CLASSI GENERICHE */
+.label-data-separator
+{
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+.label-data-separator::before 
+{
+}
+.label-data-separator::after {
+	color: #f3c253;
+	content: "/";
+}
+.borders {
+    border-bottom: 2px solid #f3c253;
+    border-top: 2px solid #f3c253;
+}
+
+
+
+
+
+/* BOTTONI */
+.cv-buttons 
+{
+	/* solo screen */
+}
+.app .cv-buttons
+{
+	display: none;
+}
+.cv-buttons .cv-button-container
+{
+	/* solo screen */
+}
+.cv-buttons input,
+.cv-buttons button
+{
+	/* solo screen */
+}
+.cv-buttons input:hover,
+.cv-buttons button:hover
+{
+	/* solo screen */
+}
+
+.cv-buttons input.pdf 
+{
+	/* solo screen */
+}
+
+.cv-buttons input.lang-it 
+{
+	/* solo screen */
+}
+.cv-buttons input.lang-en
+{
+	/* solo screen */
+}
+
+.cv-buttons .close span
+{
+	/* solo screen */
+}
+
+.ob-preview
+{
+	text-align: center;
+	/*display: table-cell;*/
+}
+.ob-preview.icon
+{
+	position: absolute;
+	top: 0.5em;
+	right: 0;
+	text-align: right;
+}
+#cv-titles .section-content-table th div.ob-preview
+{
+	width: auto;
+	display: inline-block;
+}
+.ob-preview img
+{
+	width: 80px;
+}
+.ob-preview.icon img,
+#cv-titles .ob-preview.icon img
+{
+	width: 20px;
+}
+.ob-preview .ob-qrcode img
+{
+	width: 70px;
+}
+.ob-preview a
+{
+	text-decoration: none;
+}
+.ob-preview .ob-released-from {
+	font-size:80%;
+	font-weight: normal;
+}
+.ob-preview .ob-issuer a,
+.ob-preview .ob-issuer a:default,
+.ob-preview .ob-issuer a:active,
+.ob-preview .ob-issuer a:focus,
+.ob-preview .ob-issuer a:visited,
+.open-badge .ob-issuer
+{
+	color: #15284b;
+	font-family: "DINPro-CondensedLight",sans-serif;
+	font-weight: 600;
+	font-size: 1.1em;
+	line-height: 1;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.ob-preview .ob-issuer a,
+.ob-preview .ob-issuer a:default,
+.ob-preview .ob-issuer a:active,
+.ob-preview .ob-issuer a:focus,
+.ob-preview .ob-issuer a:visited
+{
+}
+.ob-preview .ob-issuer a:hover
+{
+	color: #333;
+}
+.open-badge .ob-issuer
+{
+	width:100%;
+	float: left;
+	text-align: center;
+	text-align-last: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#cv-titles .ob-preview .ob-image
+{
+	width: auto;
+	float: left;
+}
+#cv-titles .ob-preview img
+{
+	/*width: 50px;*/
+	vertical-align: bottom;
+}
+#cv-titles .ob-preview .ob-released-from
+{
+	width: auto;
+	display: none;
+	float: left;
+}
+#cv-titles .ob-preview .ob-issuer
+{
+	display: none;
+}
+/*
+#cv-titles .ob-preview .ob-image,
+#cv-works .ob-preview .ob-image,
+#cv-lingue .ob-preview .ob-image,
+#cv-estero .ob-preview .ob-image,
+#cv-merito .ob-preview .ob-image
+{
+	width: auto;
+	float: left;
+}
+#cv-titles .ob-preview img,
+#cv-works .ob-preview img,
+#cv-lingue .ob-preview img,
+#cv-estero .ob-preview img,
+#cv-merito .ob-preview img
+{
+	width: 30px;
+}
+#cv-titles .ob-preview .ob-released-from,
+#cv-works .ob-preview .ob-released-from,
+#cv-lingue .ob-preview .ob-released-from,
+#cv-estero .ob-preview .ob-released-from,
+#cv-merito .ob-preview .ob-released-from
+{
+	width: auto;
+	display: none;
+	float: left;
+}
+#cv-works .ob-preview .ob-issuer,
+#cv-lingue .ob-preview .ob-issuer,
+#cv-estero .ob-preview .ob-issuer,
+#cv-merito .ob-preview .ob-issuer
+{
+	width: auto;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+#cv-titles .ob-preview .ob-issuer
+{
+	display: none;
+}
+*/
+.ob-icon,
+#column-right .section-content-table td a.ob-icon
+{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(/img/lau/cv5.0/open_badge.png) 0 0 no-repeat;
+	background-size: 20px;
+}
+#column-right .open-badge-section .open-badge
+{
+	width: 20%;
+	float: left;
+	display: block;
+	padding: 0.4%;
+}
+#column-right .open-badge-section .open-badge a:hover
+{
+	opacity: 50%;
+}
+#column-right .open-badge-section .open-badge .ob-image
+{
+	float: left;
+	display: block;
+	width: 54%;
+}
+#column-right .open-badge-section .open-badge .ob-image.ob-qrcode
+{
+	width: 44%;
+	padding-top: 5%;
+}
+#column-right .open-badge-section .open-badge .ob-image img
+{
+	width: 100%;
+}
+#column-right  .open-badge-section .open-badge .ob-image a
+{
+    width: auto;
+}

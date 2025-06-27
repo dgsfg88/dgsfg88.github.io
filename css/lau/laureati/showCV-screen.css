@@ -1,0 +1,685 @@
+
+
+
+body
+{
+	font-size: 12px;
+}
+
+#cv-container
+{
+}
+
+#cv-content
+{
+}
+
+
+#cv-header-container {
+	height: 152px;
+}
+
+
+#cv-header-container .cv-header {
+}
+
+#foto-container
+{
+	margin-left: 5px;
+	width: 80px;
+}
+#foto-container img
+{
+	/*height: 150px;*/
+	width: 100%;
+}
+
+#cv-header-text
+{
+	display: inline-block;
+	padding: 10px;
+	max-width: 60%;
+}
+h1.cv-name
+{
+}
+h1.cv-name.length-over
+{
+}
+h2.sub-title
+{
+	margin-top: 10px;
+}
+
+/* da visualizzare solo in stampa */
+#cv-header-img
+{
+	top: 5px;
+	right: 5px;
+	height: 20px;
+	width: 88px;
+}
+#cv-header-img img
+{
+	width: 100%;
+}
+#cv-header-container .qrcode-container
+{
+	top: 25px;
+	right: 5px;
+	padding: 5px 5px 5px 5px;
+	width: 60px;
+}
+#cv-header-container .qrcode-container img
+{
+	width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+}
+
+@media screen and (min-width: 900px) {
+	#foto-container
+	{
+		margin-left: 15px;
+		width: 135px;
+	}
+	#cv-header-img
+	{
+		height: 40px;
+		width: 176px;
+	}
+	#cv-header-container .qrcode-container
+	{
+		top: 55px;
+		right: 5px;
+		padding: 5px 5px 5px 5px;
+	}
+	#cv-header-text {
+		max-width: 100%;
+	}
+}
+
+
+#cv-content-middle-wrapper
+{
+}
+
+#cv-content-middle
+{
+}
+
+#column-left
+{
+}
+
+#column-right
+{
+}
+
+
+
+.section-container
+{
+}
+
+#column-left .section-container
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#column-left .section-title 
+{
+	margin: 2px 0 5px 0;
+}
+#column-left .section-subtitle 
+{
+}
+
+
+#column-left .row 
+{
+}
+#column-left .row b
+{
+}
+
+#column-left .row .label
+{
+}
+#column-left .section-content
+{
+}
+
+#column-left .mini-icon
+{
+	margin-bottom: 2px;
+}
+#column-left .mini-icon.two-rows
+{
+}
+#column-left .mini-icon.two-rows img
+{
+}
+#column-left .mini-icon .second-tel
+{
+	padding-left: 27px;
+}
+
+#column-left .mini-icon img 
+{
+	height: 20px;
+	width: 20px;
+}
+
+
+
+
+#column-right .section-title
+{
+	height: 48px;
+}
+#column-right .section-title > img 
+{
+}
+#column-right .section-title span
+{
+	padding-top: 1px;
+	height: 48px;
+	font-size: 1em;
+}
+
+#column-right .section-content-table
+{
+}
+
+#column-right .section-content-table tbody
+{
+}
+
+#column-right .section-content-table th
+{
+	max-width: 180px;
+	padding: 10px 1% 4px 0;
+}
+#column-right .section-content-table th div
+{
+}
+
+#column-right .section-content-table td
+{
+	padding: 10px 0px 4px 0px;
+}
+#column-right .section-content-table td,
+#column-right .row p,
+#column-right .row .paragraph
+{
+}
+#column-right .section-content-table td b,
+#column-right .section-content-table td strong
+{
+	font-family: "AvenirNext-DemiBold", sans-serif;
+	font-weight: normal;
+}
+#column-right .section-content-table td p,
+#column-right .section-content-table td .paragraph
+{
+	margin: 0.25em 0;
+}
+
+#column-right .section-content-table td a
+{
+	width: 350px;
+}
+
+
+
+
+
+/* CSS SPECIFICI PER SEZIONE */
+
+
+/* DATI anagrafici e CONTATTI  */
+#column-left #personal-info .row b
+{
+}
+#column-left #contact-info .row b,
+#column-left #contact-info .row.mini-icon,
+#column-left #contact-info .row.mini-icon a
+{
+}
+#column-left #contact-info .row.mini-icon.email b,
+#column-left #contact-info .row.mini-icon.cellphone b,
+#column-left #contact-info .row.mini-icon.phone b
+{
+}
+
+
+/* OBIETTIVI PROFESSIONALI */
+#column-right #cv-obiettivi-prof h2 
+{
+}
+#column-right #cv-obiettivi-prof .section-content-table td
+{
+}
+
+
+/* ESPERIENZE LAVORO / STAGE */
+#column-right #cv-works .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaEsperienze.png") no-repeat left top;*/
+}
+#column-right .lav-funz,
+#column-right .cv-stage,
+#column-right .lav-altreinfo
+{
+}
+#column-right .lav-azienda
+{
+}
+#column-right th .lav-sede,
+#column-right th .lav-settore,
+#column-right th .lav-periodo
+{
+}
+#column-right th .lav-settore
+{
+	margin-bottom: 2px;
+}
+#column-right th .lav-settore::first-letter {
+}
+
+
+/* STUDI E FORMAZIONE */
+#column-right #cv-titles .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaStudi.png") no-repeat left top;*/
+}
+
+#column-right .row-title-name
+{
+}
+
+#column-right .row-title-anno
+{
+}
+
+#column-right .cv-title-cert
+{
+}
+
+#column-right .cv-title-univ-logo
+{
+	margin-top: 5px;
+}
+#column-right .cv-title-univ-logo p
+{
+}
+
+#column-right .cv-title-univ-logo img.logo-univ
+{
+	max-width: 150px;
+	max-height: 50px;
+}
+#column-right .cv-title-univ-logo .title-paese,
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+}
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+}
+
+#column-right .cv-title-desc-corso,
+#column-right .cv-title-indirizzo,
+#column-right .titolo-tesi
+{
+}
+#column-right .cv-title-desc-corso b,
+#column-right .cv-title-indirizzo b,
+#column-right .titolo-tesi b
+{
+}
+#column-right .cv-title-desc-corso b:first-letter,
+#column-right .cv-title-indirizzo b:first-letter,
+#column-right .titolo-tesi b:first-letter
+{
+}
+
+
+/* STUDI PREUNIVERSITARI */
+#column-right #cv-preuniv .section-title span
+{
+}
+
+
+/* CONOSCENZE LINGUISTICHE SEZIONI SX E DX */
+
+/* CONOSCENZA LINGUE SEZIONE COMPATTA SINISTRA */
+#column-left #cv-lingue-compact .row .label
+{
+}
+
+#column-left .ep-languages-compact
+{
+}
+#column-left .ep-languages-compact tr.bottom-border
+{
+	border-bottom: 1px solid #ccc;
+}
+#column-left .ep-languages-compact th[scope=col]
+{
+	width: 32px;
+	height: 32px;
+	padding: 2px;
+}
+#column-left .ep-languages-compact th img
+{
+	width: 28px;
+}
+#column-left #cv-lingue-compact .europass-logo
+{
+}
+#column-left #cv-lingue-compact .europass-logo img
+{
+}
+#column-left .ep-languages-compact th[scope=row]
+{
+	padding: 4px 0;
+}
+#column-left .ep-languages-compact th,
+#column-left .ep-languages-compact td
+{
+}
+#column-left .ep-languages-compact .language-name 
+{
+}
+#column-left .ep-languages-compact .language-gen
+{
+}
+#column-left .ep-languages-compact td
+{
+}
+
+#column-left #contact-info .mini-icon i
+{
+	font-size: 1.2em;
+}
+
+/*** CONOSCENZA LINGUE DESTRA ***/
+#column-right #cv-lingue .section-title span
+{
+}
+
+#column-right #mother-tongue
+{
+}
+#column-right .ep-languages
+{
+}
+#column-right tr.bottom-border th,
+#column-right tr.bottom-border td
+{
+	border-bottom: 1px solid #ccc;
+}
+#column-right .europass-logo
+{
+}
+#column-right .ep-lang-title
+{
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+#column-right .ep-language-name
+{
+}
+
+#column-right .ep-language-liv.generale,
+#column-right .ep-language-liv.ascolto,
+#column-right .ep-language-liv.lettura,
+#column-right .ep-language-liv.interaz,
+#column-right .ep-language-liv.orale,
+#column-right .ep-language-liv.scritto
+{
+	padding: 5px;
+}
+#column-right .ep-language-liv.generale
+{
+}
+
+
+
+/*** SOFT SKILLS ***/
+#column-left #soft-skills .row .label
+{
+}
+#column-left #soft-skills .row b
+{
+}
+
+
+
+/*** COMPETENZE INFORMATICHE ***/
+#column-left #cv-informatiche-compact .row .label
+{
+}
+#column-left #cv-informatiche-compact .row b
+{
+}
+
+/*** PROSPETTIVE FUTURE E LAVORO CERCATO ***/
+#column-left #cv-prospettive-lav-cercato .row .label
+{
+}
+
+
+
+
+/* STUDI POST UNIVERSITARI */
+#column-right #post-titles .section-title span
+{
+}
+
+/* TITOLI MERITO */
+#column-right #cv-merito .section-title span
+{
+}
+
+/* STUDI ALL'ESTERO */
+#column-right #cv-estero .section-title span
+{
+}
+
+/* EVENTI */
+#column-right #cv-eventi .section-title span
+{
+}
+/* OPERE */
+#column-right #cv-opere .section-title span
+{
+}
+
+/* CONVEGNI */
+#column-right #cv-convegni .section-title span
+{
+}
+
+/* PUBBLICAZIONI */
+#column-right #cv-pubblicazioni .section-title span
+{
+}
+
+/* DIDATTICA */
+#column-right #cv-didattica .section-title span
+{
+}
+
+/* ALLEGATI */
+#column-right #cv-allegati .section-title span
+{
+}
+
+/* INFORMAZIONI AGGIUNTIVE - ALTRIDATI */
+#column-right #cv-altridati .section-title span
+{
+}
+
+/* CATEGORIE PROTETTE */
+#column-right #categorie-protette .section-title span
+{
+}
+
+
+
+
+
+/* FOOTER */
+
+div.cv-footer-container
+{
+	border-top: 10px solid #191434;
+}
+
+.cv-footer-left,
+.cv-footer-right
+{
+	height: 95px;
+	line-height: 95px;
+}
+
+.cv-footer-container .qrcode-container
+{
+}
+.qrcode-container img
+{
+}
+
+.cv-footer-right .paragraph
+{
+}
+
+
+
+
+/* CLASSI GENERICHE */
+.label-data-separator
+{
+}
+.label-data-separator::before 
+{
+}
+.borders {
+}
+
+.print-only
+{
+	display:none;
+}
+
+
+/* BOTTONI SOLO A SCHERMO */
+#cv-header-container {
+	margin-top: 50px;
+}
+.app #cv-header-container {
+	margin-top: 0px;
+}
+#cv-header-container.no-pdf-link {
+	margin-top: 0px;
+}
+.cv-buttons 
+{
+	height: 54px;
+	margin: 0px; 
+	padding: 1em 0em;
+	width: 100%;
+	background-color: rgba(239, 239, 239, 0.7);
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:999;
+}
+.cv-buttons .cv-button-container
+{
+	display: inline-block;
+	padding: 0 0.5em;
+}
+.cv-buttons input,
+.cv-buttons button
+{
+	color: #6c757d;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	text-transform: uppercase;
+	white-space: nowrap;
+	padding: 5px 8px;
+	text-align: center;
+	vertical-align: middle;
+	background: none 10px 50% no-repeat #fff;
+	border: 1px solid #6c757d;
+	display: inline-block;
+	border-radius: .25rem;
+}
+.cv-buttons input:hover,
+.cv-buttons button:hover
+{
+	color: #000;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.cv-buttons input:focus,
+.cv-buttons button:focus
+{
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.cv-buttons input.pdf 
+{
+	padding-left: 35px;
+	background-image: url(/img/iconapdf.gif);
+}
+
+.cv-buttons input.lang-it 
+{
+	padding-left: 35px;
+	background-image: url(/img/icons/flags/png/it.png);
+}
+.cv-buttons input.lang-en
+{
+	padding-left: 35px;
+	background-image: url(/img/icons/flags/png/gb.png);
+}
+.cv-buttons input.lang-de
+{
+	padding-left: 35px;
+	background-image: url(/img/icons/flags/png/de.png);
+}
+.cv-buttons input.lang-fr
+{
+	padding-left: 35px;
+	background-image: url(/img/icons/flags/png/fr.png);
+}
+.cv-buttons input.lang-es
+{
+	padding-left: 35px;
+	background-image: url(/img/icons/flags/png/es.png);
+}
+.cv-buttons input.lang-it.choosen-lang-it,
+.cv-buttons input.lang-en.choosen-lang-en,
+.cv-buttons input.lang-de.choosen-lang-de,
+.cv-buttons input.lang-fr.choosen-lang-fr,
+.cv-buttons input.lang-es.choosen-lang-es
+{
+	display:none;
+}
+.cv-button-container.close
+{
+	float: right;
+}
+.cv-buttons input.close
+{
+	padding-left: 35px;
+	background-image: url(/img/lau/cv5.0/iconachiudi.png);
+}
+

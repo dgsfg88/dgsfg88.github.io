@@ -1,0 +1,57 @@
+/*
+	Stili per visualizzazione per schermi piccoli
+*/
+
+@media screen and (max-width: 600px)
+{
+
+	#cv-content-middle-wrapper,
+	#cv-content-middle,
+	#column-left,
+	#column-right
+	{
+		/*display: table-row;*/
+		display: block;
+		width: 100%;
+	}
+
+	#column-right .section-container
+	{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	#column-right .section-content-table td a
+	{
+		width: 100px;
+	} 
+
+	.cv-buttons 
+	{
+		/* solo screen */
+		/*display: none;*/
+	}
+	.cv-buttons .cv-button-container
+	{
+		/* solo screen */
+		float: none;
+	}
+	.cv-buttons .cv-button-container input,
+	.cv-buttons .cv-button-container button
+	{
+		/* solo screen */
+		width: 40px;
+		background-position: 10px 50%;
+		padding: 5px 0 5px 0px;
+		text-indent: 200px;
+	}
+
+	.cv-buttons .cv-button-container.close {
+		display: none;
+	}
+	#column-right .open-badge-section .open-badge
+	{
+		width: 50%;
+	}
+
+}

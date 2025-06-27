@@ -1,0 +1,674 @@
+@import url("./fonts/fontsCV.css");
+@import url("./showCV.css");
+
+@page
+{
+	/*size: 21cm 29.7cm;*/
+	size: auto;
+	margin: 0cm;
+}
+
+
+/* RISCRITTURA DI ELEMENTI DEL CSS SHOWCV.CSS VALIDI ANCHE PER LO SCHERMO */
+html, body
+{
+} 
+
+body 
+{
+	font-size: 9pt;
+}
+
+
+#cv-container,
+.cv-popup
+{
+}
+
+#cv-content
+{
+}
+
+
+/* --- HEADER ---*/
+#cv-header-container {
+	height: 102pt;
+	border-top: 1p7 solid #191434;
+	border-bottom: 1px solid #191434;
+}
+
+#cv-header-container .cv-header {
+}
+#foto-container
+{
+	margin-left: 3mm;
+}
+#foto-container img
+{
+	height: 100pt;
+	/*width: 27mm;*/
+}
+
+#cv-header-text
+{
+	display: inline-block;
+	padding: 5pt;
+	margin-left: 5pt;
+}
+h1.cv-name
+{
+}
+h1.cv-name.length-over
+{
+}
+h2.sub-title
+{
+	margin: 1mm 0 0 0;
+}
+/* da visualizzare solo in stampa */
+#cv-header-img
+{
+	top: 2mm;
+	right: 2mm;
+}
+#cv-header-img img
+{
+	height: auto;
+	width: 40mm;
+}
+#cv-header-container .qrcode-container
+{
+	top: 14mm;
+	right: 2mm;
+	padding: 3pt 3pt 1pt 3pt;
+	width: auto;
+	height: auto;
+}
+#cv-header-container .qrcode-container img
+{
+	width: 50pt;
+	height: 50pt;
+}
+
+#cv-content-middle-wrapper
+{
+}
+#cv-content-middle
+{
+}
+
+#column-left
+{
+	background-color: transparent;
+}
+
+#column-right
+{
+}
+
+
+
+.section-container
+{
+}
+
+
+#column-left .section-container
+{
+	padding-left: 3mm;
+	padding-right: 3mm;
+}
+#column-left .section-title 
+{
+	padding: 0.3em 0 0;
+}
+#column-left .section-subtitle 
+{
+}
+
+#column-left .row 
+{
+}
+#column-left .row b
+{
+}
+#column-left .row .label
+{
+}
+#column-left .section-content
+{
+}
+
+#column-left .mini-icon
+{
+	margin-bottom: 1pt;
+}
+#column-left .mini-icon.two-rows
+{
+}
+#column-left .mini-icon .second-tel
+{
+	padding-left: 13pt;
+}
+#column-left .mini-icon img 
+{
+	height: 20px;
+	width: 20px;
+}
+
+
+
+
+
+#column-right .section-title
+{
+	/*height: 24pt;*/
+	height: 48px;
+}
+#column-right .section-title img 
+{
+	/*width: 24pt;
+	height: 24pt;*/
+}
+#column-right .section-title span
+{
+	padding-top: 1px;
+	height: 48px;
+	font-size: 1em;
+	padding-left: 30%;
+
+	/*padding-left: 40mm;*/
+	/*padding-top: 1pt;
+	height: 24pt;
+	font-size: 10pt;
+	line-height: 12pt;*/
+}
+
+#column-right .section-content-table
+{
+}
+
+#column-right .section-content-table tbody
+{
+}
+
+#column-right .section-content-table th
+{
+	/*width: 35mm;*/
+	padding: 5pt 1% 2pt 0;
+}
+#column-right .section-content-table th div
+{
+}
+
+#column-right .section-content-table td
+{
+	/*width: 75mm;*/
+	border: none;
+	padding: 2mm 0mm 2mm 2mm;
+}
+#column-right .section-content-table td,
+#column-right .row p,
+#column-right .row .paragraph
+{
+}
+#column-right .section-content-table td b,
+#column-right .section-content-table td strong
+{
+}
+#column-right .section-content-table td p,
+#column-right .section-content-table td .paragraph
+{
+}
+
+#column-right .section-content-table td a
+{
+	width: 80mm;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+
+/* CSS SPECIFICI PER SEZIONE */
+
+
+/* DATI anagrafici e CONTATTI  */
+#column-left #personal-info .row b
+{
+}
+#column-left #contact-info .row b,
+#column-left #contact-info .row.mini-icon,
+#column-left #contact-info .row.mini-icon a
+{
+}
+#column-left #contact-info .row.mini-icon.email b,
+#column-left #contact-info .row.mini-icon.cellphone b,
+#column-left #contact-info .row.mini-icon.phone b
+{
+}
+
+/* SOCIAL NETWORK */
+#column-left #social-list .mini-icon a,
+#column-left #social-list .mini-icon a:visited,
+#column-left #social-list .mini-icon a:active,
+#column-left #social-list .mini-icon a:link
+{
+	font-size: 12pt;
+	margin-right: 3pt;
+}
+
+
+/* OBIETTIVI PROFESSIONALI */
+#column-right #cv-obiettivi-prof h2 
+{
+}
+#column-right #cv-obiettivi-prof .section-content-table td
+{
+}
+
+
+/* ESPERIENZE LAVORO / STAGE */
+
+#column-right .lav-funz,
+#column-right .cv-stage,
+#column-right .lav-altreinfo
+{
+}
+#column-right .lav-azienda
+{
+}
+#column-right th .lav-sede,
+#column-right th .lav-settore,
+#column-right th .lav-periodo
+{
+}
+#column-right th .lav-settore
+{
+	margin-bottom: 1pt;
+}
+#column-right th .lav-settore::first-letter {
+}
+
+
+/* STUDI E FORMAZIONE */
+#column-right #cv-titles .section-title span
+{
+/*	background: url("/img/lau/cv5.0/48x48/iconaStudi.png") no-repeat left top;*/
+}
+
+#column-right .row-title-name
+{
+}
+
+#column-right .row-title-anno
+{
+}
+
+#column-right .cv-title-cert
+{
+}
+
+#column-right .cv-title-univ-logo
+{
+	margin-top: 2pt;
+}
+#column-right .cv-title-univ-logo p,
+#column-right .cv-title-univ-logo .paragraph
+{
+}
+
+#column-right .cv-title-univ-logo img.logo-univ
+{
+	max-width: 30mm;
+/*	max-height: 10mm;*/
+}
+#cv-titles .ob-preview img
+{
+	max-width: 11mm;
+}
+.ob-preview img
+{
+	width: 15mm;
+}
+.ob-preview .ob-qrcode img
+{
+	width: 14mm;
+}
+
+#column-right .cv-title-univ-logo .title-paese,
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+}
+#column-right .cv-title-univ-logo .title-paese-altro
+{
+}
+
+#column-right .cv-title-desc-corso,
+#column-right .cv-title-indirizzo,
+#column-right .titolo-tesi
+{
+}
+#column-right .cv-title-desc-corso b,
+#column-right .cv-title-indirizzo b,
+#column-right .titolo-tesi b
+{
+}
+#column-right .cv-title-desc-corso b:first-letter,
+#column-right .cv-title-indirizzo b:first-letter,
+#column-right .titolo-tesi b:first-letter
+{
+}
+
+
+/* STUDI PREUNIVERSITARI */
+#column-right #cv-preuniv .section-title span
+{
+}
+
+
+
+
+/* CONOSCENZE LINGUISTICHE SEZIONI SX E DX */
+
+/* CONOSCENZA LINGUE SEZIONE COMPATTA SINISTRA */
+#column-left #cv-lingue-compact .row .label
+{
+}
+
+#column-left .ep-languages-compact
+{
+}
+#column-left .ep-languages-compact tr.bottom-border
+{
+	border-bottom: 1px solid #ccc;
+}
+#column-left .ep-languages-compact th[scope=col]
+{
+	width: 32px;
+	height: 32px;
+	padding: 2px;
+}
+#column-left .ep-languages-compact th img
+{
+	width: 28px;
+}
+#column-left #cv-lingue-compact .europass-logo
+{
+}
+#column-left #cv-lingue-compact .europass-logo img
+{
+	width: 13mm;
+	height: auto;
+	margin-left: 2mm;
+}
+#column-left .ep-languages-compact th[scope=row]
+{
+	padding: 2pt 0;
+}
+#column-left .ep-languages-compact th,
+#column-left .ep-languages-compact td
+{
+}
+#column-left .ep-languages-compact .language-name 
+{
+}
+#column-left .ep-languages-compact .language-gen
+{
+}
+#column-left .ep-languages-compact td
+{
+}
+
+
+/*** CONOSCENZA LINGUE DESTRA ***/
+#column-right #cv-lingue .section-title span
+{
+}
+
+#column-right #mother-tongue
+{
+}
+#column-right .ep-languages
+{
+}
+#column-right tr.bottom-border th,
+#column-right tr.bottom-border td
+{
+	border-bottom: 1px solid #ccc;
+}
+#column-right .europass-logo
+{
+}
+#column-right .ep-lang-title
+{
+	padding: 2pt;
+	border: 1px solid #fff;
+}
+
+#column-right .ep-language-name
+{
+}
+
+#column-right .ep-language-liv.generale,
+#column-right .ep-language-liv.ascolto,
+#column-right .ep-language-liv.lettura,
+#column-right .ep-language-liv.interaz,
+#column-right .ep-language-liv.orale,
+#column-right .ep-language-liv.scritto
+{
+	padding: 2pt;
+}
+#column-right .ep-language-liv.generale
+{
+}
+
+
+
+/*** SOFT SKILLS ***/
+#column-left #soft-skills .row .label
+{
+}
+#column-left #soft-skills .row b
+{
+}
+
+
+/*** COMPETENZE INFORMATICHE ***/
+#column-left #cv-informatiche-compact .row .label
+{
+}
+#column-left #cv-informatiche-compact .row b
+{
+}
+
+
+/*** PROSPETTIVE FUTURE E LAVORO CERCATO ***/
+#column-left #cv-prospettive-lav-cercato .row .label
+{
+}
+
+
+/* STUDI POST UNIVERSITARI */
+#column-right #post-titles .section-title span
+{
+}
+
+/* TITOLI MERITO */
+#column-right #cv-merito .section-title span
+{
+}
+
+/* STUDI ALL'ESTERO */
+#column-right #cv-estero .section-title span
+{
+}
+
+/* EVENTI */
+#column-right #cv-eventi .section-title span
+{
+}
+/* OPERE */
+#column-right #cv-opere .section-title span
+{
+}
+
+/* CONVEGNI */
+#column-right #cv-convegni .section-title span
+{
+}
+
+/* PUBBLICAZIONI */
+#column-right #cv-pubblicazioni .section-title span
+{
+}
+
+/* DIDATTICA */
+#column-right #cv-didattica .section-title span
+{
+}
+
+/* ALLEGATI */
+#column-right #cv-allegati .section-title span
+{
+}
+
+/* INFORMAZIONI AGGIUNTIVE - ALTRIDATI */
+#column-right #cv-altridati .section-title span
+{
+}
+
+/* CATEGORIE PROTETTE */
+#column-right #categorie-protette .section-title span
+{
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+.cv-footer-container {
+	border-top: 0 solid #191434;
+
+	display:none;
+}
+
+.cv-footer-left,
+.cv-footer-right
+{
+	height: 2cm;
+	line-height: 2cm;
+}
+.cv-footer-container .qrcode-container
+{
+	max-height: 1.5cm;
+}
+.cv-footer-right .paragraph
+{
+}
+
+
+
+
+
+
+/* CLASSI GENERICHE */
+.label-data-separator
+{
+}
+.label-data-separator::before 
+{
+}
+
+.borders {
+	border-bottom: 1mm solid #f3c253;
+	border-top: 1mm solid #f3c253;
+}
+
+div.cv-buttons.screen-only,
+.screen-only 
+{
+	display: none;
+}
+
+
+
+
+/* INTERRUZIONI DI STAMPA */
+#column-left .break-inside
+{
+	/*page-break-after: always;*/
+	/*page-break-before: auto;*/
+	/*page-break-inside: avoid;*/
+	/*-webkit-column-break-inside: avoid;	/* Chrome, Safari, Opera */
+	/*page-break-inside: avoid;						/* Firefox */
+	/*break-inside: avoid;								/* IE 10+ */
+	/*margin-top: 3cm;*/
+}
+
+#column-right .break-inside
+{
+	/*page-break-before: auto;*/
+	/*page-break-inside: avoid;*/
+	/*-webkit-column-break-inside: avoid;	/* Chrome, Safari, Opera */
+	/*page-break-inside: avoid;						/* Firefox */
+	/*break-inside: avoid;								/* IE 10+ */
+}
+
+#column-right .section-container table.break-inside:first-of-type 
+{
+	/*-webkit-column-break-inside: unset;	/* Chrome, Safari, Opera */
+	/*page-break-inside: unset;						/* Firefox */
+	/*break-inside: unset;								/* IE 10+ */
+}
+
+
+
+/*  SISTEMAZIONE BLOCCHI BARRA DI SX  */
+#column-left #soft-skills
+{
+	/*height: 7cm;*/
+}
+#column-left #soft-skills + #cv-lingue-compact
+{
+	/*height: 7cm;*/
+}
+#column-left #soft-skills + #cv-lingue-compact + #cv-informatiche-compact
+{
+/*	position: absolute;
+	top: 28cm;
+	left: 0cm;
+	width: 98%;
+	margin: auto;*/
+}
+#column-left #cv-lingue-compact + #cv-informatiche-compact + #cv-prospettive-lav-cercato,
+#column-left #soft-skills + #cv-informatiche-compact + #cv-prospettive-lav-cercato
+{
+}
+#column-left #soft-skills + #cv-lingue-compact + #cv-informatiche-compact + #cv-prospettive-lav-cercato
+{
+/*	position: absolute;
+	top: 28cm;
+	left: 0cm;
+	width: 98%;
+	margin: auto;*/
+}
+#column-left #soft-skills + #cv-informatiche-compact
+{
+	/*height: 7cm;*/
+}
+
+.ob-preview .ob-issuer a,
+.ob-preview .ob-issuer a:default,
+.ob-preview .ob-issuer a:active,
+.ob-preview .ob-issuer a:focus,
+.ob-preview .ob-issuer a:visited,
+.open-badge .ob-issuer
+{
+	font-size: 1em;
+}
