@@ -2,9 +2,7 @@ var isEnglish = false;
 document.addEventListener("DOMContentLoaded", (event) => {
   	const btn = document.getElementById('toggle-lang');
 	
-	document.querySelectorAll('.lang-en').forEach(el => {
-        el.classList.toggle('hidden_lang', true);
-      });
+	ToggleLang();
 
     btn.addEventListener('click', () => {
 		ToggleLang();
